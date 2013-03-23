@@ -4,4 +4,5 @@ sources.list    -> /etc/apt/sources.list
 ~/
         .bashrc
         .profile
-        .Xmodmap
+
+xmodmap (xmodmap-uk-qwerty|xmodmap-us-qwerty)
