@@ -1,4 +1,7 @@
 sshd_config     -> /etc/ssh/sshd_config
+
+apt
+apt.conf        -> /etc/apt/apt.conf
 sources.list    -> /etc/apt/sources.list
 
 ~/
