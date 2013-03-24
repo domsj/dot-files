@@ -10,5 +10,9 @@ sources.list    -> /etc/apt/sources.list
 
 xmodmap (xmodmap-uk-qwerty|xmodmap-us-qwerty)
 
+# add user to sudoers file
+su root
+adduser jan sudo
+reboot
 
 graka: zie graka.txt + xorg.conf
