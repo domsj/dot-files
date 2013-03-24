@@ -8,7 +8,9 @@ sources.list    -> /etc/apt/sources.list
         .bashrc
         .profile
 
-xmodmap (xmodmap-uk-qwerty|xmodmap-us-qwerty)
+
+ln -s dot-files/xmodmap-uk/us-qwerty .Xmodmap
+xmodmap .Xmodmap
 
 # add user to sudoers file
 su root
