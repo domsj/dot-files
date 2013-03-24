@@ -9,3 +9,6 @@ sources.list    -> /etc/apt/sources.list
         .profile
 
 xmodmap (xmodmap-uk-qwerty|xmodmap-us-qwerty)
+
+
+graka: zie graka.txt + xorg.conf
