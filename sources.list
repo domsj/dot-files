@@ -1,15 +1,19 @@
 
-deb http://ftp.belnet.be/debian/ wheezy main contrib non-free
-deb-src http://ftp.belnet.be/debian/ wheezy main contrib non-free
+deb http://ftp.be.debian.org/debian/ wheezy main contrib non-free
+deb-src http://ftp.be.debian.org/debian/ wheezy main contrib non-free
 
 deb http://security.debian.org/ wheezy/updates main
 deb-src http://security.debian.org/ wheezy/updates main
 
-deb http://ftp.belnet.be/debian/ experimental main
-deb http://ftp.belnet.be/debian/ unstable main
+deb http://ftp.be.debian.org/debian/ experimental main
+deb http://ftp.be.debian.org/debian/ unstable main
 
 # virtualbox
+# wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+# The key fingerprint is
+# 7B0F AB3A 13B9 0743 5925  D9C9 5442 2A4B 98AB 5139
+# Oracle Corporation (VirtualBox archive signing key) <info@virtualbox.org>
 deb http://download.virtualbox.org/virtualbox/debian wheezy contrib
 
 # ocaml
-deb http://www.recoil.org/~avsm/ wheezy main
+# deb http://www.recoil.org/~avsm/ wheezy main
