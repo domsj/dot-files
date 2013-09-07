@@ -16,3 +16,4 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
+redshift -l 55.7:12.6 -t 5700:3600 -g 0.8 -m randr -v &

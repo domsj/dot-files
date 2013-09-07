@@ -18,3 +18,5 @@ adduser jan sudo
 reboot
 
 graka: zie graka.txt + xorg.conf
+
+sudo apt-get install redshift + line in .profile
